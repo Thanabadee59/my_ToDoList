@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-02T16:49:03.913175" rpa="false" schemaversion="5">
+<suite id="s1" name="Goship TodoList" source="D:\Resume\GoShip\Goship_TodoList.robot">
+<test id="s1-t1" name="Valid To Do List" line="9">
+<kw name="Open Browser To To Do List Page" owner="resource">
+<kw name="Open Browser" owner="Selenium2Library">
+<msg time="2024-08-02T16:49:04.342272" level="INFO">Opening browser 'chrome' to base url 'https://https://abhigyank.github.io/To-Do-List//'.</msg>
+<msg time="2024-08-02T16:49:22.898924" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-02T16:49:22.899926" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73A989632+30946]
+	(No symbol) [0x00007FF73A93E3C9]
+	(No symbol) [0x00007FF73A836FDA]
+	(No symbol) [0x00007FF73A82F0B5]
+	(No symbol) [0x00007FF73A8201E9]
+	(No symbol) [0x00007FF73A821D62]
+	(No symbol) [0x00007FF73A8204CE]
+	(No symbol) [0x00007FF73A81FD41]
+	(No symbol) [0x00007FF73A81FC80]
+	(No symbol) [0x00007FF73A81DE84]
+	(No symbol) [0x00007FF73A81E29C]
+	(No symbol) [0x00007FF73A83A041]
+	(No symbol) [0x00007FF73A8CBA2E]
+	(No symbol) [0x00007FF73A8ACA6A]
+	(No symbol) [0x00007FF73A8CB041]
+	(No symbol) [0x00007FF73A8AC813]
+	(No symbol) [0x00007FF73A87A6E5]
+	(No symbol) [0x00007FF73A87B021]
+	GetHandleVerifier [0x00007FF73AABF83D+1301229]
+	GetHandleVerifier [0x00007FF73AACBDB7+1351783]
+	GetHandleVerifier [0x00007FF73AAC2A03+1313971]
+	GetHandleVerifier [0x00007FF73A9BDD06+245686]
+	(No symbol) [0x00007FF73A94758F]
+	(No symbol) [0x00007FF73A943804]
+	(No symbol) [0x00007FF73A943992]
+	(No symbol) [0x00007FF73A93A3EF]
+	BaseThreadInitThunk [0x00007FFA6BC27374+20]
+	RtlUserThreadStart [0x00007FFA6C3FCC91+33]
+</msg>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-08-02T16:49:04.341271" elapsed="18.565651">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73A989632+30946]
+	(No symbol) [0x00007FF73A93E3C9]
+	(No symbol) [0x00007FF73A836FDA]
+	(No symbol) [0x00007FF73A82F0B5]
+	(No symbol) [0x00007FF73A8201E9]
+	(No symbol) [0x00007FF73A821D62]
+	(No symbol) [0x00007FF73A8204CE]
+	(No symbol) [0x00007FF73A81FD41]
+	(No symbol) [0x00007FF73A81FC80]
+	(No symbol) [0x00007FF73A81DE84]
+	(No symbol) [0x00007FF73A81E29C]
+	(No symbol) [0x00007FF73A83A041]
+	(No symbol) [0x00007FF73A8CBA2E]
+	(No symbol) [0x00007FF73A8ACA6A]
+	(No symbol) [0x00007FF73A8CB041]
+	(No symbol) [0x00007FF73A8AC813]
+	(No symbol) [0x00007FF73A87A6E5]
+	(No symbol) [0x00007FF73A87B021]
+	GetHandleVerifier [0x00007FF73AABF83D+1301229]
+	GetHandleVerifier [0x00007FF73AACBDB7+1351783]
+	GetHandleVerifier [0x00007FF73AAC2A03+1313971]
+	GetHandleVerifier [0x00007FF73A9BDD06+245686]
+	(No symbol) [0x00007FF73A94758F]
+	(No symbol) [0x00007FF73A943804]
+	(No symbol) [0x00007FF73A943992]
+	(No symbol) [0x00007FF73A93A3EF]
+	BaseThreadInitThunk [0x00007FFA6BC27374+20]
+	RtlUserThreadStart [0x00007FFA6C3FCC91+33]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-08-02T16:49:22.906922" elapsed="0.000000"/>
+</kw>
+<kw name="To Do List Page Should Be Open" owner="resource">
+<status status="NOT RUN" start="2024-08-02T16:49:22.907923" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-08-02T16:49:04.340270" elapsed="18.567653">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73A989632+30946]
+	(No symbol) [0x00007FF73A93E3C9]
+	(No symbol) [0x00007FF73A836FDA]
+	(No symbol) [0x00007FF73A82F0B5]
+	(No symbol) [0x00007FF73A8201E9]
+	(No symbol) [0x00007FF73A821D62]
+	(No symbol) [0x00007FF73A8204CE]
+	(No symbol) [0x00007FF73A81FD41]
+	(No symbol) [0x00007FF73A81FC80]
+	(No symbol) [0x00007FF73A81DE84]
+	(No symbol) [0x00007FF73A81E29C]
+	(No symbol) [0x00007FF73A83A041]
+	(No symbol) [0x00007FF73A8CBA2E]
+	(No symbol) [0x00007FF73A8ACA6A]
+	(No symbol) [0x00007FF73A8CB041]
+	(No symbol) [0x00007FF73A8AC813]
+	(No symbol) [0x00007FF73A87A6E5]
+	(No symbol) [0x00007FF73A87B021]
+	GetHandleVerifier [0x00007FF73AABF83D+1301229]
+	GetHandleVerifier [0x00007FF73AACBDB7+1351783]
+	GetHandleVerifier [0x00007FF73AAC2A03+1313971]
+	GetHandleVerifier [0x00007FF73A9BDD06+245686]
+	(No symbol) [0x00007FF73A94758F]
+	(No symbol) [0x00007FF73A943804]
+	(No symbol) [0x00007FF73A943992]
+	(No symbol) [0x00007FF73A93A3EF]
+	BaseThreadInitThunk [0x00007FFA6BC27374+20]
+	RtlUserThreadStart [0x00007FFA6C3FCC91+33]
+</status>
+</kw>
+<kw name="Input AddItem" owner="resource">
+<arg>demo</arg>
+<status status="NOT RUN" start="2024-08-02T16:49:22.909836" elapsed="0.000000"/>
+</kw>
+<kw name="Submit Credentials" owner="resource">
+<status status="NOT RUN" start="2024-08-02T16:49:22.910838" elapsed="0.000000"/>
+</kw>
+<kw name="To Do List Page Should Be Open" owner="resource">
+<status status="NOT RUN" start="2024-08-02T16:49:22.911838" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="Selenium2Library" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-02T16:49:22.911838" elapsed="2.227055"/>
+</kw>
+<tag>positive</tag>
+<status status="FAIL" start="2024-08-02T16:49:04.338268" elapsed="20.801624">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=127.0.6533.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF73A989632+30946]
+	(No symbol) [0x00007FF73A93E3C9]
+	(No symbol) [0x00007FF73A836FDA]
+	(No symbol) [0x00007FF73A82F0B5]
+	(No symbol) [0x00007FF73A8201E9]
+	(No symbol) [0x00007FF73A821D62]
+	(No symbol) [0x00007FF73A8204CE]
+	(No symbol) [0x00007FF73A81FD41]
+	(No symbol) [0x00007FF73A81FC80]
+	(No symbol) [0x00007FF73A81DE84]
+	(No symbol) [0x00007FF73A81E29C]
+	(No symbol) [0x00007FF73A83A041]
+	(No symbol) [0x00007FF73A8CBA2E]
+	(No symbol) [0x00007FF73A8ACA6A]
+	(No symbol) [0x00007FF73A8CB041]
+	(No symbol) [0x00007FF73A8AC813]
+	(No symbol) [0x00007FF73A87A6E5]
+	(No symbol) [0x00007FF73A87B021]
+	GetHandleVerifier [0x00007FF73AABF83D+1301229]
+	GetHandleVerifier [0x00007FF73AACBDB7+1351783]
+	GetHandleVerifier [0x00007FF73AAC2A03+1313971]
+	GetHandleVerifier [0x00007FF73A9BDD06+245686]
+	(No symbol) [0x00007FF73A94758F]
+	(No symbol) [0x00007FF73A943804]
+	(No symbol) [0x00007FF73A943992]
+	(No symbol) [0x00007FF73A93A3EF]
+	BaseThreadInitThunk [0x00007FFA6BC27374+20]
+	RtlUserThreadStart [0x00007FFA6C3FCC91+33]
+</status>
+</test>
+<doc>A test suite for valid login.
+
+Keywords are imported from the resource file</doc>
+<status status="FAIL" start="2024-08-02T16:49:03.944191" elapsed="21.202683"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">positive</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Goship TodoList">Goship TodoList</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
